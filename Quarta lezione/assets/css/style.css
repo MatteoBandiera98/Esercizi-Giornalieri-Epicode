@@ -1,0 +1,86 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Poppins', sans-serif;
+    background-image: url(/assets/img/sfondo.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+header {
+    text-align: center;
+    border: solid 1px;
+    background-image: linear-gradient(rgba(0, 160, 198, 1), rgba(3, 109, 134, 1));
+    margin: 4%;
+    box-shadow: 0 3px 3px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.bianco {
+    color: antiquewhite;
+    font-size: x-large;
+}
+
+.bianco:hover {
+    color: red;
+}
+
+main,
+aside,
+div {
+
+    margin-right: 5%;
+    margin-left: 5%;
+    background-color: white;
+    padding: 35px;
+    box-shadow: 0 3px 3px;
+}
+
+.evidenziare {
+    background-color: rgb(180, 173, 173);
+    border: 3px;
+    border-radius: 5px;
+}
+
+table {
+    border-bottom: 3px solid rgba(0, 162, 255, 0.767);
+    border-collapse: collapse;
+
+}
+
+table tr:nth-child(even) {
+    background-color: rgb(179, 172, 172)
+}
+
+thead {
+    background-color: blue;
+}
+
+iframe {
+    position: relative;
+    border-radius: 10px;
+    display:block;
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+    
+
+}
+
+
+
+
+
+
+
+footer {
+    text-align: center;
+    border: solid 1px;
+    background-color: rgb(26, 129, 170);
+    margin: 4%;
+    color: antiquewhite;
+    font-size: large;
+}
