@@ -1,0 +1,23 @@
+h1 {
+    text-align: center;
+    color: black;
+    margin-top: 200px;
+}
+
+body {
+
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://cdn.pixabay.com/photo/2023/08/17/09/29/rock-8196075_640.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#taskInput {
+    margin-left: 590px;
+    text-align: center;
+}
+
+button {
+    background-color: aqua;
+}
