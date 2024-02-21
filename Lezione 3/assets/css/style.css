@@ -1,0 +1,172 @@
+/* Esercizio incompleto mancano tutte le modifiche per schermi medio piccoli*/
+
+
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #612406;
+}
+
+/* header*/
+header {
+    background-color: #FBF7E3;
+    margin-top: -11px;
+
+}
+
+.button {
+    border: solid 20px #F3DF85;
+    border-radius: 100px;
+    list-style-type: none;
+    width: 10%;
+    font-size: x-large;
+    background-color: #F3DF85;
+    display: flex;
+    justify-content: space-around;
+}
+h3{
+    text-align: center
+}
+
+
+nav {
+    height: 300%;
+    background-color: #FBF7E3;
+    display: flex;
+    justify-content: space-around;
+
+
+}
+img{
+    width: 50%;
+    
+}
+#buttonGrande{
+    display: flex;
+    width: 12%;
+}
+
+
+
+
+@media screen and (min-width: 992px) {
+
+    header {
+        position: fixed;
+        width: 10%;
+        height: 100%;
+    }
+    nav{
+        width: 200%;
+        height: 100%;
+        flex-direction: column;
+        align-items: center
+    }
+    .button{
+        width: 50%;
+    }
+    #buttonGrande{
+        width: 60%;
+        order: -1;
+    }
+
+}
+/*schermi piccoli */
+@media screen and (max-width: 900px) {
+header , nav{
+    width: 100%;
+    height: 100%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.button{
+    width: 100px;
+    justify-content: space-around
+}
+#buttonGrande{
+    order: -1;
+    width: 400px;
+}
+#Shop{
+    width: 30%;
+}
+#H3{
+    font-size: 2em;
+}
+#HeadereMain{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+#contenitoreImmaggini{
+    display: flex;
+    flex-direction: column;
+}
+}
+
+
+/*-------------------------------------------------------------------------------------------------------------*/
+
+
+/*main*/
+
+h2{
+    color: #612406;
+    font-size: xx-large;
+}
+main{
+    flex: 1;
+    height: 200%;
+    background-color: #FFFFFF;
+    margin-left: 22%;
+    width: 70%;
+}
+#contenitoreImmaggini{
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 100%;
+}
+.immagini{
+    width: 20%;
+    height: 20%;
+    border-radius: 50px;
+    background-color: #FBF7E3;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+}
+.vaso{
+    width: auto;
+    border-radius: 50px;
+   
+}
+/* section*/
+section{
+    margin-left: 22%; 
+}
+#articolo{
+    display: flex;
+    border-radius: 20px;
+    background-color:  #FBF7E3;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap:nowrap;
+}
+#immagineGrossa{
+    margin: 3%;
+    
+}
+#img2{
+    height: auto;
+    width: auto;
+}
+#TitoloP{
+    text-align: center;
+    margin-right: 3%;
+    font-size: 1.2rem;
+}
