@@ -1,0 +1,60 @@
+html,
+body {
+    background-color: #666666;
+    padding: 0;
+    margin: 0;
+    font-family: "Indie Flower";
+    font-style: bold;
+    font-size: 1.3em;
+
+}
+
+#container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+
+#verde {
+    background-color: #C8F9C9;
+    transform: rotate(3deg);
+}
+
+#giallo {
+    background-color: #F5F5C2;
+    transform: rotate(-3deg);
+
+}
+
+#viola {
+    background-color: #BAB8DB;
+    transform: rotate(-5deg);
+}
+
+.post {
+    width: 23%;
+    margin: 1%;
+    height: 40vh;
+    box-shadow: 5px 5px 5px 5px;
+    
+}
+
+h2 {
+    text-align: center;
+    padding-top: 80px
+}
+
+p {
+    text-align: center;
+}
+
+#container .post:hover {
+    transform: rotate(0deg);
+    transform: scale(1.1);
+}
+h3{
+    text-align: center;
+}
+
+
